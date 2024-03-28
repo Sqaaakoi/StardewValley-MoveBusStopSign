@@ -1,0 +1,48 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "EditMap",
+            "Target": "Maps/BusStop",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 21,
+                        "Y": 22
+                    },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 21,
+                        "Y": 21
+                    },
+                    "Layer": "Front",
+                    "Remove": true
+                },
+                {
+                    "Position": {
+                        "X": 21,
+                        "Y": 20
+                    },
+                    "Layer": "Front",
+                    "SetTilesheet": "outdoors",
+                    "SetIndex": 410
+                },
+                {
+                    "Position": {
+                        "X": 21,
+                        "Y": 21
+                    },
+                    "Layer": "Buildings",
+                    "SetTilesheet": "outdoors",
+                    "SetIndex": 435,
+                    "SetProperties": {
+                        "Action": "Message BusStop.1"
+                    }
+                }
+            ]
+        }
+    ]
+}

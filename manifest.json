@@ -1,0 +1,13 @@
+{
+    "Name": "Move Bus Stop Sign",
+    "Author": "Sqaaakoi",
+    "Version": "1.0",
+    "Description": "Moves the bus stop sign up by 1 tile.",
+    "UniqueID": "Sqaaakoi.MoveBusStopSign",
+    "UpdateKeys": [
+        "GitHub:Sqaaakoi/StardewValley-MoveBusStopSign"
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
